@@ -21,7 +21,10 @@ export default function MessageList() {
   }, []);
 
   return (
-    <div className="p-4" style={{ background: "var(--color-bg-secondary)" }}>
+    <div
+      className="flex-1 overflow-y-auto p-4"
+      style={{ background: "var(--color-bg-secondary)" }}
+    >
       {messages.map((m) => (
         <MessageItem key={m.id} message={m} />
       ))}

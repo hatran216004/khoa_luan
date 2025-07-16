@@ -4,6 +4,7 @@ import { Menu } from "lucide-react";
 import Avatar from "../ui/Avatar";
 import ItemChat from "../ui/ItemChat";
 import SearchBox from "../ui/SearchBox";
+import IconButton from "../ui/IconButton";
 
 export default function Sidebar() {
   const loop = [1, 2, 3, 4];
@@ -17,9 +18,9 @@ export default function Sidebar() {
       }}
     >
       <div className="flex justify-center items-center gap-2">
-        <button className="text-[var(--color-icon)]">
+        <IconButton>
           <Menu size={24} />
-        </button>
+        </IconButton>
         <SearchBox />
       </div>
       {loop.map((el) => (
