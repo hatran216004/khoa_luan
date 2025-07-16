@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "username": "Bill Kuphal",
+    "text": "The weather will be perfect for that...",
+    "timestamp": "2025-07-15T09:44:00+07:00",
+    "isMine": false,
+    "reactions": {}
+  },
+  {
+    "id": 2,
+    "username": "Photographers",
+    "text": "Here's my latest drone shots",
+    "timestamp": "2025-07-15T09:46:00+07:00",
+    "isMine": false,
+    "reactions": { "heart": 1 }
+  },
+  {
+    "id": 3,
+    "username": "You",
+    "text": "Store is out of stock",
+    "timestamp": "2025-07-15T09:48:00+07:00",
+    "isMine": true,
+    "reactions": { "like": 1 }
+  },
+  {
+    "id": 4,
+    "username": "Space Cadet",
+    "text": "They ain't in space yet",
+    "timestamp": "2025-07-15T09:50:00+07:00",
+    "isMine": false,
+    "reactions": {}
+  },
+  {
+    "id": 5,
+    "username": "You",
+    "text": "Yeah, yeah. But 🙂 is this in Florida?",
+    "timestamp": "2025-07-15T09:52:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 2 }
+  },
+  {
+    "id": 6,
+    "username": "Lela Walsh",
+    "text": "... is typing",
+    "timestamp": "2025-07-15T09:54:00+07:00",
+    "isMine": false,
+    "reactions": {}
+  },
+  {
+    "id": 7,
+    "text": "Apollo Bird left the group.",
+    "timestamp": "2025-07-15T09:56:00+07:00",
+    "isMine": false,
+    "isNotification": true,
+    "reactions": {}
+  },
+  {
+    "id": 8,
+    "username": "Roland Marks",
+    "text": "@wald0 Glad to hear that 😊",
+    "timestamp": "2025-07-15T09:58:00+07:00",
+    "isMine": false,
+    "reactions": {}
+  },
+  {
+    "id": 9,
+    "username": "Helen Flatley",
+    "text": "Yep, Cape Canaveral! 😄 👍",
+    "timestamp": "2025-07-15T10:00:00+07:00",
+    "isMine": false,
+    "reactions": { "like": 1 }
+  },
+  {
+    "id": 10,
+    "username": "You",
+    "text": "Ok",
+    "timestamp": "2025-07-15T10:02:00+07:00",
+    "isMine": true,
+    "reactions": {}
+  },
+  {
+    "id": 11,
+    "username": "Moon Boots",
+    "text": "I've been there. Looks like weather's nice, too",
+    "timestamp": "2025-07-15T10:04:00+07:00",
+    "isMine": false,
+    "reactions": {}
+  },
+  {
+    "id": 12,
+    "username": "Rocket Time",
+    "text": "It is -70s and clear. I'm 14 miles away, could hear it. Live look out my window",
+    "timestamp": "2025-07-15T10:06:00+07:00",
+    "isMine": false,
+    "reactions": {}
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "😂😂😂",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 14,
+    "text": "NASA Launch Schedule\nUpcoming launches and landings of crew members to and from the",
+    "timestamp": "2025-07-15T21:05:00+07:00",
+    "isMine": false,
+    "isNotification": true,
+    "reactions": {}
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  },
+  {
+    "id": 13,
+    "username": "You",
+    "text": "lorLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "timestamp": "2025-07-15T21:03:00+07:00",
+    "isMine": true,
+    "reactions": { "emoji": 3 }
+  }
+]

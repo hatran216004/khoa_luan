@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "SpaceX Crew-16 Launch",
+    "members": 260,
+    "online": 128,
+    "lastMessage": "NASA Launch Schedule\nUpcoming launches and landings of crew members to and from the",
+    "timestamp": "2025-07-15T21:05:00+07:00",
+    "unread": 5,
+    "isTyping": false
+  },
+  {
+    "id": 2,
+    "name": "Photographers",
+    "members": 80,
+    "online": 45,
+    "lastMessage": "Here's my latest drone shots",
+    "timestamp": "2025-07-15T09:46:00+07:00",
+    "unread": 2,
+    "isTyping": false
+  },
+  {
+    "id": 3,
+    "name": "Daryl Bogisch, Ian Daniel, +1",
+    "members": 3,
+    "online": 2,
+    "lastMessage": "Store is out of stock",
+    "timestamp": "2025-07-15T09:48:00+07:00",
+    "unread": 0,
+    "isTyping": false
+  },
+  {
+    "id": 4,
+    "name": "SpaceX Crew-16 Launch",
+    "members": 260,
+    "online": 128,
+    "lastMessage": "They ain't in space yet",
+    "timestamp": "2025-07-15T09:50:00+07:00",
+    "unread": 0,
+    "isTyping": false
+  },
+  {
+    "id": 5,
+    "name": "Lela Walsh",
+    "members": 1,
+    "online": 1,
+    "lastMessage": "... is typing",
+    "timestamp": "2025-07-15T09:54:00+07:00",
+    "unread": 1,
+    "isTyping": true
+  },
+  {
+    "id": 6,
+    "name": "Roland Marks",
+    "members": 1,
+    "online": 1,
+    "lastMessage": "@wald0 Glad to hear that 😊",
+    "timestamp": "2025-07-15T09:58:00+07:00",
+    "unread": 0,
+    "isTyping": false
+  },
+  {
+    "id": 7,
+    "name": "Helen Flatley",
+    "members": 1,
+    "online": 1,
+    "lastMessage": "Yep, Cape Canaveral! 😄 👍",
+    "timestamp": "2025-07-15T10:00:00+07:00",
+    "unread": 0,
+    "isTyping": false
+  }
+]
