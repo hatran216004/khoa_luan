@@ -30,14 +30,13 @@ export default function InputMessage() {
         type="text"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-        className="flex-1 px-4 py-2 rounded-full border focus:outline-none focus:ring-2"
+        placeholder="Type your message..."
+        className="flex-1 px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-[var(--color-ring)] transition"
         style={{
-          background: "var(--color-bg-input)",
+          backgroundColor: "var(--color-bg-input)",
           color: "var(--color-text)",
           borderColor: "var(--color-border-input)",
-          outlineColor: "var(--color-ring)",
         }}
-        placeholder="Type your message..."
       />
 
       <button
@@ -52,7 +51,7 @@ export default function InputMessage() {
         className="flex items-center gap-1 px-4 py-2 rounded-full text-white"
         style={{ background: "var(--color-ring)" }}
       >
-        <Send size={16} />
+        <Send size={20} />
         <span className="text-sm">Send</span>
       </button>
     </div>

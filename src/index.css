@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+@layer base {
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scroll-thumb) transparent;
+  }
+
+  /* Chrome, Edge, Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--color-scroll-thumb);
+    border-radius: 9999px;
+  }
+}
+
 :root {
   /* Main background & text */
   --color-bg: #fff;
@@ -34,6 +56,9 @@
 
   /* Hover */
   --color-bg-hover: #f1f5f9;
+
+  /* Scroll */
+  --color-scroll-thumb: #cbd5e1;
 }
 
 .dark {
@@ -70,4 +95,7 @@
 
   /* Hover */
   --color-bg-hover: #1e293b;
+
+  /* Scroll */
+  --color-scroll-thumb: #475569;
 }

@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import MessageList from "../components/MessageList";
 import InputMessage from "../components/InputMessage";
+import SidebarInfo from "../components/SidebarInfo";
+import Avatar from "../ui/Avatar";
 
 export default function ChatPage() {
   return (
@@ -19,6 +21,9 @@ export default function ChatPage() {
 
         <InputMessage />
       </div>
+      <SidebarInfo>
+        <Avatar src="src\assets\10001.png" size="l" />
+      </SidebarInfo>
     </div>
   );
 }
