@@ -1,5 +1,7 @@
+import ChatPage from "./pages/ChatPage";
+
 function App() {
-  return <h1 className="text-red-200">hello world</h1>;
+  return <ChatPage />;
 }
 
 export default App;
