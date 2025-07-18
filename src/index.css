@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @layer base {
   /* Firefox */
@@ -20,84 +20,6 @@
     background-color: var(--color-scroll-thumb);
     border-radius: 9999px;
   }
-}
-
-:root {
-  /* Main background & text */
-  --color-bg: #fff;
-  --color-text: #1f2937;
-
-  /* Secondary & input */
-  --color-bg-secondary: #f1f5f9;
-  --color-bg-input: #f1f5f9;
-
-  /* Bubble */
-  --color-bg-my: #3b82f6;
-  --color-text-my: #fff;
-
-  --color-bg-other: #e5e7eb;
-  --color-text-other: #1f2937;
-
-  /* UI elements */
-  --color-border: #e5e7eb;
-  --color-border-input: #d1d5db;
-  --color-ring: #3b82f6;
-
-  /* Icons */
-  --color-icon: #6b7280;
-  --color-icon-hover: #374151;
-
-  /* Info text */
-  --color-notify-text: #6b7280;
-  --color-username: #6b7280;
-  --color-time: #9ca3af;
-  --color-primary-text: #1f2937;
-  --color-subtext: #6b7280;
-
-  /* Hover */
-  --color-bg-hover: #f1f5f9;
-
-  /* Scroll */
-  --color-scroll-thumb: #cbd5e1;
-}
-
-.dark {
-  /* Main background & text */
-  --color-bg: #17191c;
-  --color-text: #f1f5f9;
-
-  /* Secondary & input */
-  --color-bg-secondary: #080707;
-  --color-bg-input: #17191c;
-
-  /* Bubble */
-  --color-bg-my: #3b82f6;
-  --color-text-my: #fff;
-
-  --color-bg-other: #334155;
-  --color-text-other: #f1f5f9;
-
-  /* UI elements */
-  --color-border: #334155;
-  --color-border-input: #475569;
-  --color-ring: #3b82f6;
-
-  /* Icons */
-  --color-icon: #9ca3af;
-  --color-icon-hover: #f1f5f9;
-
-  /* Info text */
-  --color-notify-text: #9ca3af;
-  --color-username: #9ca3af;
-  --color-time: #64748b;
-  --color-primary-text: #f1f5f9;
-  --color-subtext: #9ca3af;
-
-  /* Hover */
-  --color-bg-hover: #1e293b;
-
-  /* Scroll */
-  --color-scroll-thumb: #475569;
 }
 
 @keyframes fade-in {
