@@ -1,17 +1,41 @@
-import { Bell, BellOff, Pin, SearchIcon } from "lucide-react";
+import { Bell, BellOff, Pin, SearchIcon, X } from "lucide-react";
+import { ReactNode } from "react";
 import AccordionItem from "../ui/AccordionItem";
 import IconButton from "../ui/IconButton";
 import { useState } from "react";
+import SearchBox from "../ui/SearchBox";
 
-interface SidebarInfoProps {
-  children: React.ReactNode;
-}
+type SidebarInfoProps = {
+  children: ReactNode;
+};
 
 export default function SidebarInfo({ children }: SidebarInfoProps) {
   const [isBell, setIsBell] = useState(false);
+  const [isSearch, setIsSearch] = useState(false);
 
   function handleBell() {
-    setIsBell((prev) => !prev);
+    setIsBell((el) => !el);
+  }
+
+  function handleSearch() {
+    setIsSearch((el) => !el);
+  }
+
+  if (isSearch) {
+    return (
+      <div className="w-112 flex flex-col p-4 border-l border-[var(--color-border)] bg-[var(--color-bg)]">
+        <div
+          className="flex gap-5  items-center mb-8"
+          style={{ background: "var(--color-bg)", color: "var(--color-text)" }}
+        >
+          <IconButton onClick={() => setIsSearch(false)}>
+            <X />
+          </IconButton>
+          <span className="text-xl font-bold">Tìm kiếm</span>
+        </div>
+        <SearchBox placeholder="Tìm kiếm trong cuộc trò truyện" />
+      </div>
+    );
   }
 
   return (
@@ -29,9 +53,9 @@ export default function SidebarInfo({ children }: SidebarInfoProps) {
 
           <span>Tắt thông báo</span>
         </IconButton>
-        <IconButton>
+        <IconButton onClick={handleSearch}>
           <SearchIcon size="20" />
-          <span>Trang cá nhân</span>
+          <span>Tìm kiếm</span>
         </IconButton>
       </div>
 

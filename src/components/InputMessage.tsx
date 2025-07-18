@@ -30,7 +30,7 @@ export default function InputMessage() {
         type="text"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-        placeholder="Type your message..."
+        placeholder="Aa"
         className="flex-1 px-4 py-2 rounded-full border focus:outline-none focus:ring-2 focus:ring-[var(--color-ring)] transition"
         style={{
           backgroundColor: "var(--color-bg-input)",

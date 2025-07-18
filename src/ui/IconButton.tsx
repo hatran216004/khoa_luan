@@ -1,14 +1,14 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 
-interface IconButtonProps {
+type IconButtonProps = {
   children: ReactNode;
   to?: string;
   href?: string;
   onClick?: () => void;
   className?: string;
   direction?: "row" | "col";
-}
+};
 
 export default function IconButton({
   children,

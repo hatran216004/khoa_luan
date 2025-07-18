@@ -2,7 +2,11 @@ import { Info, Phone, Video } from "lucide-react";
 import Avatar from "../ui/Avatar";
 import IconButton from "../ui/IconButton";
 
-export default function Header() {
+type HeaderProps = {
+  onToggleSidebarInfo: () => void;
+};
+
+export default function Header({ onToggleSidebarInfo }: HeaderProps) {
   return (
     <div
       className="pl-4 pb-4 flex gap-4 justify-center items-center pr-4"
@@ -24,7 +28,7 @@ export default function Header() {
       <IconButton>
         <Phone />
       </IconButton>
-      <IconButton>
+      <IconButton onClick={onToggleSidebarInfo}>
         <Info />
       </IconButton>
     </div>

@@ -1,33 +1,41 @@
-// import { useTheme } from "../context/ThemeContext";
-
 import { Menu } from "lucide-react";
 import Avatar from "../ui/Avatar";
 import ItemChat from "../ui/ItemChat";
 import SearchBox from "../ui/SearchBox";
 import IconButton from "../ui/IconButton";
+import { useState } from "react";
+import MenuModal from "../ui/MenuModal";
 
 export default function Sidebar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
   const loop = [1, 2, 3, 4];
+
+  const handleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
 
   return (
     <div
-      className="w-80 flex flex-col gap-4 pl-4 pr-4 border-r"
+      className="w-80 flex flex-col gap-4 pl-4 pr-4 border-r relative bg-[var(--color-bg)]"
       style={{
         borderColor: "var(--color-border)",
-        background: "var(--color-bg)",
       }}
     >
-      <div className="flex justify-center items-center gap-2">
-        <IconButton>
-          <Menu size={24} />
+      <div className="flex items-center gap-3 py-4 relative">
+        <IconButton onClick={handleMenu}>
+          <Menu size={24} className="text-[var(--color-icon)]" />
         </IconButton>
-        <SearchBox />
+        <SearchBox placeholder="Tìm kiếm" />
+        {isMenuOpen && <MenuModal onClose={() => setIsMenuOpen(false)} />}
       </div>
-      {loop.map((el) => (
-        <ItemChat key={el}>
-          <Avatar src="/src/assets/10001.png" size="m" />
-        </ItemChat>
-      ))}
+
+      <div className="flex flex-col gap-2">
+        {loop.map((el) => (
+          <ItemChat key={el}>
+            <Avatar src="/src/assets/10001.png" size="m" />
+          </ItemChat>
+        ))}
+      </div>
     </div>
   );
 }

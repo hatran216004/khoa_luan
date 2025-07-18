@@ -1,6 +1,8 @@
-interface ItemChatProps {
-  children: React.ReactNode;
-}
+import { ReactNode } from "react";
+
+type ItemChatProps = {
+  children: ReactNode;
+};
 
 export default function ItemChat({ children }: ItemChatProps) {
   return (
