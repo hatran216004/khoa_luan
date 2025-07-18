@@ -1,6 +1,10 @@
 import { SearchIcon } from "lucide-react";
 
-export default function SearchBox() {
+type SearchBoxProps = {
+  placeholder?: string;
+};
+
+export default function SearchBox({ placeholder }: SearchBoxProps) {
   return (
     <div
       className="w-full flex items-center rounded-full px-4 py-2 border focus-within:ring-2 focus-within:ring-[var(--color-ring)] transition"
@@ -13,7 +17,7 @@ export default function SearchBox() {
 
       <input
         type="text"
-        placeholder="Search"
+        placeholder={placeholder}
         className="ml-2 w-full bg-transparent outline-none placeholder:text-[var(--color-subtext)] text-[var(--color-text)]"
       />
     </div>

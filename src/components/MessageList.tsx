@@ -1,15 +1,6 @@
 import { useEffect, useState } from "react";
 import MessageItem from "./MessageItem";
-
-interface Message {
-  id: number;
-  username?: string;
-  text: string;
-  timestamp: string;
-  isMine: boolean;
-  isNotification?: boolean;
-  reactions?: { [key: string]: number };
-}
+import { Message } from "../types/message";
 
 export default function MessageList() {
   const [messages, setMessages] = useState<Message[]>([]);
