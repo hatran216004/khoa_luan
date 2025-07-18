@@ -7,12 +7,12 @@ import {
   type Placement,
   flip, // đổi hướng khi scroll qua
   autoUpdate,
-  useHover,
+  // useHover,
   useFocus,
   useDismiss,
   useRole,
   useInteractions,
-  safePolygon,
+  // safePolygon,
   useClick
 } from '@floating-ui/react';
 
@@ -21,6 +21,7 @@ interface Props {
   renderPopover: React.ReactNode;
   escapeKey?: boolean;
   className?: string;
+  isHoverOpen?: boolean;
   as?: ElementType;
   initialOpen?: boolean;
   placement?:
@@ -36,6 +37,7 @@ const Popover = ({
   className,
   escapeKey = true,
   renderPopover,
+  // isHoverOpen = false,
   as: Element = 'div',
   initialOpen,
   placement = 'bottom-end'
@@ -50,19 +52,20 @@ const Popover = ({
     placement: placement as Placement
   });
   const { refs, floatingStyles, context } = data;
-  const hover = useHover(context, { handleClose: safePolygon() });
+
+  // const hover = useHover(context , { handleClose: safePolygon() });
   const focus = useFocus(context);
   const click = useClick(context);
   const dismiss = useDismiss(context, {
     escapeKey
   });
   const role = useRole(context, { role: 'tooltip' });
+
   const { getReferenceProps, getFloatingProps } = useInteractions([
     click,
     focus,
     dismiss,
-    role,
-    hover
+    role
   ]);
   const id = useId();
 
