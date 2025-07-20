@@ -1,5 +1,5 @@
-import { Moon } from 'lucide-react';
-import { useTheme } from '../store/theme';
+import { Moon } from "lucide-react";
+import { useTheme } from "../store/theme.store";
 
 export default function ToggleTheme() {
   const { setTheme, theme } = useTheme();
@@ -16,7 +16,7 @@ export default function ToggleTheme() {
       <label className="inline-flex items-center cursor-pointer">
         <input
           type="checkbox"
-          checked={theme === 'dark'}
+          checked={theme === "dark"}
           onChange={setTheme}
           className="sr-only peer"
         />
