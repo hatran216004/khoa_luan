@@ -15,11 +15,18 @@ export default function ChatPage() {
 
   return (
     <div
-      className="flex pt-4  h-screen "
+      className="flex pt-4 h-screen "
       style={{ background: "var(--color-bg)" }}
     >
-      <Sidebar />
-      <div className="flex flex-col flex-1">
+      <div
+        className=" border-r pr-2"
+        style={{
+          borderColor: "var(--color-border)",
+        }}
+      >
+        <Sidebar />
+      </div>
+      <div className=" flex flex-col flex-1">
         <Header onToggleSidebarInfo={handleSidebarInfo} />
 
         <div className="flex-1 overflow-y-auto">
